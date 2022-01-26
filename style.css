@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Poppins:wght@500;600&family=Roboto&display=swap');
+:root { 
+    --main-bg-color: #bd6418;
+    --font1: "Baloo Bhaina 2", cursive;
+    --font2: "Roboto", sans-serif;
+  }
+  .font1 {
+    font-family: var(--font1);
+  }
+  .font2 {
+    font-family: var(--font2);
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("5.jpg")no-repeat center fixed ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+   
+    background: rgba(12, 92, 241, 0.513);
+    /* display: flex; */
+    /* flex-direction: column;     */
+    padding: 50px 40px 50px 40px ;
+    border-radius: 20px;
+    backdrop-filter: blur(904px);
+    box-shadow: red;
+    /* border-top: 6px solid rgba(0, 0, 0, 0.692);
+    border-left:  6px solid rgba(0, 0, 0, 0.692);
+    border-bottom: 6px solid rgba(0, 0, 0, 0.692);
+    border-right:  6px solid rgba(0, 0, 0, 0.692); */
+    box-shadow:  6px solid rgba(0, 0, 0, 0.692);
+}
+.content{
+    display: flex;
+    justify-content: center;
+    
+}
+ .image{
+  display: flex;
+  justify-content: center;
+  margin-top: 3px;
+}
+.image img{
+   width: 130px;
+   position: relative;
+   top: 52px;
+  
+  }
+.user{
+    margin-top: 80px;
+}
+.user input{
+    padding: 10px 53px 10px 9px;
+    font-size: 16px;
+    border-radius: 9px ;
+    border: none;
+    /* background: rgb(236, 7, 64); */
+    color: rgb(255, 0, 0);
+}
+.pass input{
+    padding: 10px 53px 10px 9px;
+    font-size: 16px;
+    border-radius: 9px ;
+    border: none;
+    /* background: rgb(236, 7, 64); */
+    color: rgb(255, 0, 0);
+}
+.btn{
+    /* display: flex; */
+    justify-content: center;
+    padding: 13px 113px 13px 113px;
+    font-size: 16px;
+    border-radius: 9px ;
+    border: none; 
+    margin-top: 30px;
+    font-family: var(--font2);
+    font-weight: 900;
+    /* font-weight: bolder; */
+    cursor: pointer;
+}
+.btn:hover{
+    background: rgba(29, 3, 71, 0.993);
+    color: white;
+}
+
